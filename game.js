@@ -9,21 +9,21 @@ var bgImage = new Image();
 bgImage.onload = function () {
   bgReady = true;
 };
-bgImage.src = "images/background.png";
+bgImage.src = "background.png";
 //bird image
 var birdReady = false;
 var birdImage = new Image();
 birdImage.onload = function () {
   birdReady = true;
 };
-birdImage.src = "images/bird.png";
+birdImage.src = "bird.png";
 //first upper bar
 var upper1Ready = false;
 var upper1Image = new Image();
 upper1Image.onload = function () {
   upper1Ready = true;
 };
-upper1Image.src = "images/upper.png";
+upper1Image.src = "upper.png";
 
 //second upper bar
 var upper2Ready = false;
@@ -31,7 +31,7 @@ var upper2Image = new Image();
 upper2Image.onload = function () {
   upper2Ready = true;
 };
-upper2Image.src = "images/upper.png";
+upper2Image.src = "upper.png";
 
 //third upper bar
 var upper3Ready = false;
@@ -39,7 +39,7 @@ var upper3Image = new Image();
 upper3Image.onload = function () {
   upper3Ready = true;
 };
-upper3Image.src = "images/upper.png";
+upper3Image.src = "upper.png";
 
 //first lower bar
 var lower1Ready = false;
@@ -47,7 +47,7 @@ var lower1Image = new Image();
 lower1Image.onload = function () {
   lower1Ready = true;
 };
-lower1Image.src = "images/lower.png";
+lower1Image.src = "lower.png";
 
 //second lower bar
 var lower2Ready = false;
@@ -55,7 +55,7 @@ var lower2Image = new Image();
 lower2Image.onload = function () {
   lower2Ready = true;
 };
-lower2Image.src = "images/lower.png";
+lower2Image.src = "lower.png";
 
 //third lower bar
 var lower3Ready = false;
@@ -63,7 +63,7 @@ var lower3Image = new Image();
 lower3Image.onload = function () {
   lower3Ready = true;
 };
-lower3Image.src = "images/lower.png";
+lower3Image.src = "lower.png";
 
 var bird = {
   xspeed: 0,
